@@ -1,0 +1,46 @@
+body {
+	background-color: darkblue;
+	margin-top: 15%;
+}
+
+h1 {
+	font-size: xx-large;
+	font-weight: bolder;
+	color: white;
+}
+
+input {
+	background-color: midnightblue;
+	color: whitesmoke;
+	font-size: medium;
+	font-weight: lighter;
+}
+
+div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+input {
+	margin-bottom: 10px;
+	border: none;
+	width: 350px;
+	height: 40px;
+	padding-left: 10px;
+	border-radius: 5px;
+}
+
+button {
+	background-color: cornflowerblue;
+	color: white;
+	width: 350px;
+	height: 40px;
+	border-radius: 5px;
+}

@@ -11,13 +11,13 @@ body {
 	font-family: montserrat, arial, verdana;
 }
 /*form styles*/
-.msform {
+form {
 	width: 400px;
 	margin: 50px auto;
 	text-align: center;
 	position: relative;
 }
-.msform fieldset {
+form fieldset {
 	background: white;
 	border: 0 none;
 	border-radius: 3px;
@@ -32,7 +32,7 @@ body {
 	position: absolute;
 }
 /*inputs*/
-.msform input {
+form input {
 	padding: 15px;
 	border: 1px solid rgba(0, 0, 0, 0.05);
 	border-radius: 3px;
@@ -43,12 +43,12 @@ body {
 	color: #2c3e50;
 	font-size: 13px;
 }
-.msform input.error,
-.msform textarea.error {
+form input.error,
+form textarea.error {
 	border-color: rgb(255, 99, 71);
 }
 /*buttons*/
-.msform .action-button {
+form .action-button {
 	width: 100px;
 	background: rgb(64, 64, 64);
 	font-weight: bold;
@@ -60,8 +60,8 @@ body {
 	margin: 10px 5px;
 	transition: all 0.4s;
 }
-.msform .action-button:hover,
-.msform .action-button:focus {
+form .action-button:hover,
+form .action-button:focus {
 	box-shadow: 0 0 0 2px white, 0 0 0 3px rgb(255, 99, 71);
 	background-color: rgb(255, 99, 71);
 }
